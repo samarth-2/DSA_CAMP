@@ -1,0 +1,117 @@
+.home__page__outer{
+    width:100%;
+    height:100%;
+    margin:auto;
+    user-select: none; /* Standard syntax */
+}
+
+
+.admin__login__outer{
+  width:100%;
+  height:100vh;
+  user-select: none; /* Standard syntax */
+}
+.admin__login__inner{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.admin__login__inner__card{
+  width:300px;
+  height:fit-content;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: rgba(216, 218, 218, 0.538);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+.admin__heading{
+  width:100%;
+  height:fit-content;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 2rem;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+
+
+.admin__text{
+  width:100%;
+  height:3rem;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom:5px ;
+  padding-left: 10px;
+}
+.admin__text__input{
+  width:90%;
+  height:2rem;
+  border:none;
+  outline: none;
+  border-radius: 10px;
+}
+.admin__submit{
+  width:100%;
+  height:5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin__submit__button{
+  width:fit-content;
+  min-width:5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background: #df6178;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+
+
+.admin__home__button{
+  width: 300px;
+  font-size: 2rem;
+  height:5rem;
+  border-radius: 10px;
+  display: flex;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+@media screen and (min-width:1510px)
+{
+  .home__page__outer{
+      width:90%;
+  }
+}
+@media screen and (min-width:2000px)
+{
+  .home__page__outer{
+      width:80%;
+  }
+}
+@media screen and (min-width:2100px)
+{
+  .home__page__outer{
+      width:60%;
+  }
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.notes__outer__outer{
+  width:100%;
+  height:fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none; /* Standard syntax */
+}
+.notes__outer{
+  width:100%;
+  height:fit-content;
+}
+.notes__section1{
+  width:100%;
+  height:20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notes_img{
+  width:500px;
+  height:85%;
+}
+
+
+.notes__heading{
+  width:100%;
+  height:8rem;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.notes__catogary__outer{
+  width:100%;
+  height:fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notes__card__outer{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:fit-content;
+}
+
+
+
+.notes__filter__modale__outer{
+  width:100%;
+  height:100vh;
+}
+.notes__filter__modale__inner{
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.notes__filter__close{
+  width:100%;
+  height:3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.notes__filter__btn__mobile {
+  background: transparent;
+  border-color: transparent;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  padding: 3px 10px;
+  color:  #C1576A;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  width:fit-content;
+  margin-top: 30px;
+  height:2rem;
+}
+
+.notes__active__mobile {
+  border-bottom: 2px solid;
+}
+
+
+
+
+
+
+@media screen and (min-width:1510px)
+{
+  .notes__outer{
+      width:100%;
+  }
+}
+@media screen and (min-width:2000px)
+{
+  .notes__outer{
+      width:90%;
+  }
+}
+@media screen and (min-width:2100px)
+{
+  .notes__outer{
+      width:70%;
+  }
+}
+@media screen and (max-width:689px)
+{
+  .notes_img{
+    width:400px;
+    height:85%;
+  }
+}
+@media screen and (max-width:440px)
+{
+  .notes_img{
+    width:300px;
+    height:85%;
+  }
+}

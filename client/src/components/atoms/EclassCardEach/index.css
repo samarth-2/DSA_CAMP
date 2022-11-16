@@ -1,0 +1,110 @@
+
+.Eclass__card__section{
+    width:85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:fit-content;
+}
+
+.Eclass__card__item{
+    padding: 5px;
+    width:450px;
+    height:fit-content;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color:black;
+    text-decoration:none;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border:3px solid #C1576A;
+    background: rgb(251, 249, 249);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.Eclass__card__photo{
+    width:30%;
+    padding:20px;
+    height:150px;
+    border-radius: 10px;
+}
+.Eclass__card__info{
+    width:70%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+.Eclass__card__item:hover{
+    background-color: rgba(163, 163, 163, 0.3);
+}
+
+.Eclass__modale{
+    width:300px;
+    height:100px;
+    border:3px solid #C1576A;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    color:black;
+    text-decoration:none;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+
+
+
+
+
+
+@media screen and (max-width:573px)
+{
+    .Eclass__card__section{
+        width:95%;
+    }
+    .Eclass__card__item{
+        width:450px;
+        /* height:120px; */
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Eclass__card__titlee {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .Eclass__card__text {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:462px)
+{
+    .Eclass__card__photo{
+        display: none;
+    }
+    .Eclass__card__info{
+        width:90%;
+    }
+    .Eclass__card__titlee {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .Eclass__card__text {
+        font-size: 15px;
+    }
+}

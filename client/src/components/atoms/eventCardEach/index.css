@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.event__card__inner{
+    width:900px;
+    height:fit-content;
+    border-radius: 10px;
+    background: rgb(251, 249, 249);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    cursor: default;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.event__card__heading{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.event__card__heading__no
+{
+    width:fit-content;
+    height:3rem;
+    display: flex;
+    height:3rem;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    color:#C1576A;
+    justify-content: center;
+}
+.event__card__heading__topic{
+    width:75%;
+    min-height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height:fit-content;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.event__card__heading__date{
+    width:20%;
+    height:3rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.event__card__text{
+    padding: 10px;
+    width:100%;
+    height: fit-content;
+    border-top:2px solid #C1576A;
+}
+
+
+
+
+@media screen and (max-width:924px)
+{
+    .event__card__inner{
+        width:90%;
+    }
+    .event__card__heading__topic{
+        font-size: 1rem;
+    }
+    .event__card__heading__date{
+        width:30%;
+        font-size: 14px;
+    }
+    .event__card__heading__topic{
+        width:70%;
+    }
+}

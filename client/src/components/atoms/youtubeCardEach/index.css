@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.youtube__card__outer{
+    width:500px;
+    height:6rem;
+    text-decoration: none;
+    color:black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    cursor: pointer;
+    background: rgb(251, 249, 249);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.youtube__card__name{
+    width:95%;
+    padding-bottom: 5px;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    height:fit-content;
+    margin-top: 5px;
+}
+.youtube__card__info{
+    width:95%;
+    font-size: 13px;
+    height:fit-content;
+}
+
+
+
+@media screen and (max-width:1200px)
+{
+    .youtube__card__outer{
+        width:70%;
+    }
+}
+@media screen and (max-width:426px)
+{
+    .youtube__card__outer{
+        width:90%;
+    }
+}
+@media screen and (max-width:380px)
+{
+    .youtube__card__name{
+        font-size: 15px;
+    }
+    .youtube__card__info{
+        font-size: 12px;
+    }
+}

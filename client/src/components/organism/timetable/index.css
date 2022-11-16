@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.tt__outer__outer{
+  width:100%;
+  height:fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none; /* Standard syntax */
+}
+.tt__outer{
+  width:100%;
+  height:fit-content;
+}
+.tt__section1{
+  width:100%;
+  height:20rem;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tt_img{
+  width:500px;
+  height:85%;
+}
+
+
+.tt__heading{
+  width:100%;
+  height:8rem;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+
+}
+.tt__heading__mobile{
+  width:100%;
+  height:6rem;
+  font-size: 3rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.tt__input__outer{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tt__input__inner{
+    width:fit-content;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.tt__heading2{
+    width:100%;
+    height:fit-content;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 15px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+/* .tt__text__input{
+    width:15rem;
+    height:2rem;
+    background-color: rgba(216, 218, 218, 0.538);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 4px;
+} */
+.tt__select{
+    width:8rem;
+    border:none;
+    height:2rem;
+    background-color: rgba(216, 218, 218, 0.538);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    outline: none;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    overflow-y: scroll;
+}
+.tt__buttons_each{
+    width: 8rem;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #df6178;
+    color: #fff;
+    border: 0;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.tt__display__outer{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.tt__display__inner{
+    width:90%;
+    height:650px;
+    border-radius: 10px;
+    padding:5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tt_img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+.tt__downlaod__outer{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+
+
+.tt__card__item{
+    padding: 5px;
+    width:550px;
+    height:fit-content;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color:black;
+    text-decoration:none;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: rgb(251, 249, 249);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.tt__card__photo{
+    width:30%;
+    padding:20px;
+    height:150px;
+    border-radius: 10px;
+}
+.tt__card__info{
+    width:70%;
+    height:100%;
+}
+
+.tt__card__titlee {
+    font-size: 18px;
+    font-family:'Oswald', sans-serif ;
+    font-weight: bolder;
+}
+
+.tt__card__text {
+    margin-bottom: 15px;
+}
+.tt__card__button{
+    width:100%;
+    height:fit-content;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tt__card__download__button {
+    width:fit-content;
+    min-width: 8rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background: #df6178a7;
+    color: black;
+    border: 0;
+    padding: 5px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.tt__download{
+    width:20px;
+    height:20px;
+}
+.tt__card__download__button:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:573px)
+{
+    .tt__card__item{
+        width:450px;
+        /* height:120px; */
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .tt__card__titlee {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .tt__card__text {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:462px)
+{
+    .tt__card__photo{
+        display: none;
+    }
+    .tt__card__info{
+        width:90%;
+    }
+    .tt__card__titlee {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .tt__card__text {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1510px)
+{
+  .tt__outer{
+      width:90%;
+  }
+}
+@media screen and (min-width:2000px)
+{
+  .tt__outer{
+      width:80%;
+  }
+}
+@media screen and (min-width:2100px)
+{
+  .tt__outer{
+      width:60%;
+  }
+}
+@media screen and (max-width:880px)
+{
+    .tt__display__inner{
+        width:90%;
+        height:550px;
+    }
+    .tt__select{
+        width:6rem;
+        height:1.2rem;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:770px)
+{
+  .tt__heading{
+    font-size: 2.5rem;
+  }
+  .tt__display__inner{
+    width:90%;
+    height:500px;
+}
+}
+@media screen and (max-width:541px)
+{
+  .tt__heading{
+    font-size: 2rem;
+  }
+  .tt__display__inner{
+    width:90%;
+    height:300px;
+}
+  .tt__section1{
+    width:100%;
+    height:15rem;
+  }
+}
+@media screen and (max-width:432px)
+{
+  .tt__heading__mobile{
+    display: flex;
+  }
+  .tt__heading{
+    display: none;
+  }
+  .tt__display__inner{
+    width:90%;
+    height:200px;
+    }
+}

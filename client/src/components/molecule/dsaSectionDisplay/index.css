@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.dsa__section__outer{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dsa__section__inner__left{
+    width:45%;
+    height:25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.dsa__section__image{
+    width:80%;
+    height:80%;
+    border-radius: 10px;
+}
+
+
+
+
+
+.dsa__section__inner__right{
+    width:45%;
+    height:27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.dsa__section__heading{
+    width:100%;
+    height:4rem;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.dsa__section__cards{
+    width:100%;
+    height:80%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (max-width:770px)
+{
+    .dsa__section__inner__left{
+        display: none;
+    }
+    .dsa__section__inner__right{
+        width:95%;
+    }
+}
+

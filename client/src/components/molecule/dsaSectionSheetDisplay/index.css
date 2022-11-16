@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.dsa__sheet__outer{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.dsa__sheet__card{
+    text-decoration: none;
+    color:black;
+    width:150px;
+    height:200px;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(251, 249, 249);
+    cursor: pointer;
+    
+}
+
+.dsa__sheet__card__image{
+    width:100%;
+    height:100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.dsa__sheet__card__image:hover{
+    width:120%;
+    height:120%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dsa__sheet__heading{
+    position: absolute;
+    width:150px;
+    padding: 10px;
+    text-align: center;
+    height:fit-content;
+    font-size: 1.2rem;
+    word-break: break-all;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}

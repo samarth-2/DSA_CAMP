@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* body {
+	text-align: center;
+} */
+
+.square {
+	width: 18px;
+	height: 40px;
+	display: inline-block;
+	margin: 4px;
+	border-radius: 30px;
+	animation-name: bounce;
+	animation-duration: .9s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: backwards;
+	animation-timing-function: ease-in-out;
+
+}
+
+#one {
+	background-color: #3FF485;
+}
+
+#two {
+	background-color: #BCD2FF;
+	animation-delay: .3s;
+}
+
+#three {
+	background-color: #5B2DCE;
+	animation-delay: .6s;
+}
+
+#four {
+	background-color: #0EF4BE;
+	animation-delay: .9s;
+}
+
+#five {
+	background-color: #7F6DCE;
+	animation-delay: 1.2s;
+}
+
+@keyframes bounce {
+	0% {
+		opacity: 0.1;
+		transform: translateY(40px);
+	}
+	100% {
+		opacity: 1;
+	}
+}
